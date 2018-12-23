@@ -3222,7 +3222,9 @@
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="df56-a99f-23bc-6b05" name="Centigors" hidden="false" collective="false" type="unit">
       <profiles>
@@ -3377,7 +3379,9 @@
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bee4-e8cb-454a-e1c4" name="Dragon Ogor Shaggoth" hidden="false" collective="false" type="unit">
       <profiles>
@@ -3915,6 +3919,956 @@
         <cost name="pts" costTypeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="0356-e818-a1ff-a88e" name="Cygor" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="3e0c-e255-8189-492d" name="Cygor" hidden="false" profileTypeId="1960-ca8e-67ce-2014" profileTypeName="01 Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="8655-6213-2824-1752" value="*"/>
+            <characteristic name="Wounds" characteristicTypeId="cd0e-fea6-411f-904d" value="14"/>
+            <characteristic name="Bravery" characteristicTypeId="0c85-bf79-836b-759e" value="7"/>
+            <characteristic name="Save" characteristicTypeId="f8dd-4f2a-8543-4f36" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="6245-a670-1f6d-9216" name="Soul-eater" hidden="false" profileTypeId="c924-5a68-471a-2fd5" profileTypeName="08 Ability (Unit)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="A Cygor can attempt to unbind 2 spells in each enemy hero phase in the same manner as a wizard. If it unbinds a spell, then the caster of the spell suffers 1 mortal wound, and the Cygor heals a wound."/>
+          </characteristics>
+        </profile>
+        <profile id="438e-8ae9-c797-a85f" name="Ghostsight" hidden="false" profileTypeId="c924-5a68-471a-2fd5" profileTypeName="08 Ability (Unit)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="You can re-roll all failed hit rolls for a Cygor if the target of the attack is a WIZARD."/>
+          </characteristics>
+        </profile>
+        <profile id="9203-31e1-8413-1137" name="Cygor" hidden="false" profileTypeId="90d1-a434-348d-a861" profileTypeName="04 Wound Table">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Variable 1" characteristicTypeId="420a-645a-ab28-93a0" value="Wounds Suffered"/>
+            <characteristic name="Variable 2" characteristicTypeId="4cdd-1e03-530f-0ff7" value="Move"/>
+            <characteristic name="Variable 3" characteristicTypeId="b1ea-56be-ba52-16e9" value="Massive Horns"/>
+            <characteristic name="Variable 4" characteristicTypeId="ad26-bf56-95c4-80f1" value="Hurl Boulder"/>
+          </characteristics>
+        </profile>
+        <profile id="6347-3a45-0ff9-46f9" name="Cygor1" hidden="false" profileTypeId="90d1-a434-348d-a861" profileTypeName="04 Wound Table">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Variable 1" characteristicTypeId="420a-645a-ab28-93a0" value="0-3"/>
+            <characteristic name="Variable 2" characteristicTypeId="4cdd-1e03-530f-0ff7" value="8&quot;"/>
+            <characteristic name="Variable 3" characteristicTypeId="b1ea-56be-ba52-16e9" value="8"/>
+            <characteristic name="Variable 4" characteristicTypeId="ad26-bf56-95c4-80f1" value="18&quot;"/>
+          </characteristics>
+        </profile>
+        <profile id="fd68-94f9-8cfb-fd91" name="Cygor4" hidden="false" profileTypeId="90d1-a434-348d-a861" profileTypeName="04 Wound Table">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Variable 1" characteristicTypeId="420a-645a-ab28-93a0" value="10-12"/>
+            <characteristic name="Variable 2" characteristicTypeId="4cdd-1e03-530f-0ff7" value="4&quot;"/>
+            <characteristic name="Variable 3" characteristicTypeId="b1ea-56be-ba52-16e9" value="4"/>
+            <characteristic name="Variable 4" characteristicTypeId="ad26-bf56-95c4-80f1" value="6&quot;"/>
+          </characteristics>
+        </profile>
+        <profile id="fe1d-81ab-8d49-fd0f" name="Cygor2" hidden="false" profileTypeId="90d1-a434-348d-a861" profileTypeName="04 Wound Table">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Variable 1" characteristicTypeId="420a-645a-ab28-93a0" value="4-6"/>
+            <characteristic name="Variable 2" characteristicTypeId="4cdd-1e03-530f-0ff7" value="6&quot;"/>
+            <characteristic name="Variable 3" characteristicTypeId="b1ea-56be-ba52-16e9" value="7"/>
+            <characteristic name="Variable 4" characteristicTypeId="ad26-bf56-95c4-80f1" value="15&quot;"/>
+          </characteristics>
+        </profile>
+        <profile id="42b7-720a-c3fe-f5e4" name="Cygor3" hidden="false" profileTypeId="90d1-a434-348d-a861" profileTypeName="04 Wound Table">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Variable 1" characteristicTypeId="420a-645a-ab28-93a0" value="7-9"/>
+            <characteristic name="Variable 2" characteristicTypeId="4cdd-1e03-530f-0ff7" value="5&quot;"/>
+            <characteristic name="Variable 3" characteristicTypeId="b1ea-56be-ba52-16e9" value="5"/>
+            <characteristic name="Variable 4" characteristicTypeId="ad26-bf56-95c4-80f1" value="12&quot;"/>
+          </characteristics>
+        </profile>
+        <profile id="64ef-e0c8-3a94-3dc3" name="Cygor5" hidden="false" profileTypeId="90d1-a434-348d-a861" profileTypeName="04 Wound Table">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Variable 1" characteristicTypeId="420a-645a-ab28-93a0" value="13+"/>
+            <characteristic name="Variable 2" characteristicTypeId="4cdd-1e03-530f-0ff7" value="3&quot;"/>
+            <characteristic name="Variable 3" characteristicTypeId="b1ea-56be-ba52-16e9" value="2"/>
+            <characteristic name="Variable 4" characteristicTypeId="ad26-bf56-95c4-80f1" value="3&quot;"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="3f8b-fb9a-8da3-889b" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="1900-0951-2d10-5d49" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="bafa-eeed-5fc1-cb21" name="Hurl Boulder" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="a955-9c81-3f71-3afd" name="Hurl Boulder" hidden="false" profileTypeId="96df-ab28-5d72-bbb3" profileTypeName="03 Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="655c-362e-a663-3e50" value="Missile"/>
+                <characteristic name="Range" characteristicTypeId="ee32-7f8e-ccd7-b7b0" value="*"/>
+                <characteristic name="Attacks" characteristicTypeId="0bd7-bded-a0e0-19a0" value="1"/>
+                <characteristic name="To Hit" characteristicTypeId="87f2-fb99-33f9-7269" value="4+"/>
+                <characteristic name="To Wound" characteristicTypeId="8842-17f1-9794-4efc" value="2+"/>
+                <characteristic name="Rend" characteristicTypeId="f578-d2a5-f0d3-b707" value="-2"/>
+                <characteristic name="Damage" characteristicTypeId="b5b6-4cbd-661d-1b70" value="D6"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2a4-7d67-a260-b631" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="656d-0a87-04d2-a5d4" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="50e0-19e1-bf6c-7f69" name="Massive Horns" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f311-87ff-e897-97ab" name="Massive Horns" hidden="false" profileTypeId="96df-ab28-5d72-bbb3" profileTypeName="03 Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="655c-362e-a663-3e50" value="Melee"/>
+                <characteristic name="Range" characteristicTypeId="ee32-7f8e-ccd7-b7b0" value="2&quot;"/>
+                <characteristic name="Attacks" characteristicTypeId="0bd7-bded-a0e0-19a0" value="*"/>
+                <characteristic name="To Hit" characteristicTypeId="87f2-fb99-33f9-7269" value="4+"/>
+                <characteristic name="To Wound" characteristicTypeId="8842-17f1-9794-4efc" value="3+"/>
+                <characteristic name="Rend" characteristicTypeId="f578-d2a5-f0d3-b707" value="-1"/>
+                <characteristic name="Damage" characteristicTypeId="b5b6-4cbd-661d-1b70" value="1"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b57-ef4d-1137-12dc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="123c-a1f8-ffb9-b22c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="180.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="baa5-5e23-b2ec-c175" name="Bullgors" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="7f53-d529-5755-3e56" name="Bloodkine" hidden="false" profileTypeId="c924-5a68-471a-2fd5" profileTypeName="08 Ability (Unit)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="The leader of this unit is a Bloodkine. A Bloodkine makes 4 attacks rather than 3 with a Bullgor Axe, and makes 3 attacks rather than 2 with a Bullgor Great Axe."/>
+          </characteristics>
+        </profile>
+        <profile id="f4de-3e86-b15a-334f" name="Bloodgreed" hidden="false" profileTypeId="c924-5a68-471a-2fd5" profileTypeName="08 Ability (Unit)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="Each time you roll a wound roll of 6 or more for a Bullgor&apos;s attack it can immediately make 1 extra attack with its melee weapon."/>
+          </characteristics>
+        </profile>
+        <profile id="f120-b15d-7b83-4de4" name="Bullgors" hidden="false" profileTypeId="1960-ca8e-67ce-2014" profileTypeName="01 Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="8655-6213-2824-1752" value="7&quot;"/>
+            <characteristic name="Wounds" characteristicTypeId="cd0e-fea6-411f-904d" value="4"/>
+            <characteristic name="Bravery" characteristicTypeId="0c85-bf79-836b-759e" value="6"/>
+            <characteristic name="Save" characteristicTypeId="f8dd-4f2a-8543-4f36" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="1616-cd13-bdcd-af6c" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a554-7e2b-88c2-8417" name="3 Bullgors" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4b39-18cf-4fc9-d465" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cb82-0a8c-597f-79a6" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="160.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e4d7-80a6-15f0-eff4" name="Warherd Banner Bearer" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="63d0-4ce5-487f-a5cf" name="Warherd Banner Bearer" hidden="false" profileTypeId="c924-5a68-471a-2fd5" profileTypeName="08 Ability (Unit)">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="Add 1 to the Bravery of a unit that includes any Warherd Banner Bearers."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50bd-4f62-b15d-3d86" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d3df-bd8b-9042-34d8" name="Warherd Drummer" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="da72-cd24-fa35-7627" name="Warherd Drummer" hidden="false" profileTypeId="c924-5a68-471a-2fd5" profileTypeName="08 Ability (Unit)">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="Add 1 to the charge rolls of a unit that includes any Warherd Drummers for each enemy unit within 12&quot;."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8996-e1e5-869d-3a79" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0bf2-2db4-774c-4675" name="Weapon option" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80d0-52a9-d312-3ceb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9944-9b2e-4613-7175" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="6632-a3df-45c5-2bae" name="Bullgor Axes and Bullshields" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="bac4-3cf8-6b23-a177" name="Bullshields" hidden="false" profileTypeId="c924-5a68-471a-2fd5" profileTypeName="08 Ability (Unit)">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="Untis with Bullshields have a save of 4+ in the combat phase."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="5e8f-f999-23fd-7341" name="Bullgor Axe" hidden="false" targetId="1a15-5086-2624-e514" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb38-82f9-6730-2a5c" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2fa4-c0a6-968d-0540" name="Two Bullgor Axes" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="480e-2d69-f72e-4ae9" name="Dual Axes" hidden="false" profileTypeId="c924-5a68-471a-2fd5" profileTypeName="08 Ability (Unit)">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="You can re-roll hit rolls of 1 for models armed with more than one Bullgor Axe, as they have a better change of landing a blow."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="a420-f690-65ae-dac7" name="Bullgor Axe" hidden="false" targetId="1a15-5086-2624-e514" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c359-81de-19e4-cd0d" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8a2f-a8b7-5503-acff" name="Bullgor Great Axes" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="7070-de4e-d059-3f31" name="Bullgor Great Axe" hidden="false" profileTypeId="96df-ab28-5d72-bbb3" profileTypeName="03 Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="655c-362e-a663-3e50" value="Melee"/>
+                    <characteristic name="Range" characteristicTypeId="ee32-7f8e-ccd7-b7b0" value="1&quot;"/>
+                    <characteristic name="Attacks" characteristicTypeId="0bd7-bded-a0e0-19a0" value="2"/>
+                    <characteristic name="To Hit" characteristicTypeId="87f2-fb99-33f9-7269" value="4+"/>
+                    <characteristic name="To Wound" characteristicTypeId="8842-17f1-9794-4efc" value="3+"/>
+                    <characteristic name="Rend" characteristicTypeId="f578-d2a5-f0d3-b707" value="-2"/>
+                    <characteristic name="Damage" characteristicTypeId="b5b6-4cbd-661d-1b70" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9909-d66a-41ef-5e27" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d537-6326-91b1-62f7" name="Doombull" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="df3a-ae34-9d67-d3a0" name="Slaughterer&apos;s Call" hidden="false" profileTypeId="f71f-b0a4-730e-ced3" profileTypeName="07 Ability (Command)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Command Ability Details" characteristicTypeId="1b71-4c83-4e8c-093f" value="If a Doombull uses this ability, then until your next hero phase, you can add 1 to all wound rolls made for WARHERD units in your army that are within 16&quot; of this model when they attack in the combat phase. The same unit cannot benefit from this command ability more than once in the same phase.*ERRATA Jun&apos;18*"/>
+          </characteristics>
+        </profile>
+        <profile id="1381-bdcc-1683-d819" name="Doombull" hidden="false" profileTypeId="1960-ca8e-67ce-2014" profileTypeName="01 Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="8655-6213-2824-1752" value="7&quot;"/>
+            <characteristic name="Wounds" characteristicTypeId="cd0e-fea6-411f-904d" value="8"/>
+            <characteristic name="Bravery" characteristicTypeId="0c85-bf79-836b-759e" value="7"/>
+            <characteristic name="Save" characteristicTypeId="f8dd-4f2a-8543-4f36" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="189c-32d0-f9e3-cfa3" name="Bloodgreed" hidden="false" profileTypeId="c924-5a68-471a-2fd5" profileTypeName="08 Ability (Unit)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="Each time you roll a wound roll of 6 or more for a Doombull&apos;s attack it [...] can immediately make 1 extra attack with its melee weapon."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="4f1b-3515-f2b0-7c2d" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="7046-b075-2d25-afcb" name="New CategoryLink" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6e51-f97c-7045-728d" name="Weapon Option" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfd9-0f69-f4f0-d391" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a41c-6345-40f5-49b5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="52f9-fd13-24f2-d44d" name="Doombull Axe and Bullshield" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="3c3f-38bb-e72f-3dbb" name="Bullshield" hidden="false" profileTypeId="c924-5a68-471a-2fd5" profileTypeName="08 Ability (Unit)">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="A Doombull with a Bullshield has a save of 4+ in the combat phase."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="92df-1900-2363-a681" name="Doombull Axe" hidden="false" targetId="f750-04bc-d522-f6d5" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12fa-4f3c-2ae3-29c2" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c33b-cf7a-e130-3265" name="Doombull Great Axe" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="fb25-d9c9-8975-5496" name="Doombull Great Axe" hidden="false" profileTypeId="96df-ab28-5d72-bbb3" profileTypeName="03 Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="655c-362e-a663-3e50" value="Melee"/>
+                    <characteristic name="Range" characteristicTypeId="ee32-7f8e-ccd7-b7b0" value="1&quot;"/>
+                    <characteristic name="Attacks" characteristicTypeId="0bd7-bded-a0e0-19a0" value="3"/>
+                    <characteristic name="To Hit" characteristicTypeId="87f2-fb99-33f9-7269" value="3+"/>
+                    <characteristic name="To Wound" characteristicTypeId="8842-17f1-9794-4efc" value="3+"/>
+                    <characteristic name="Rend" characteristicTypeId="f578-d2a5-f0d3-b707" value="-2"/>
+                    <characteristic name="Damage" characteristicTypeId="b5b6-4cbd-661d-1b70" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26f5-4fc1-89bd-f000" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="16d4-8047-5374-e6c1" name="Two Doombull Axes" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="7866-17fd-dd75-9945" name="Slaughter Storm" hidden="false" profileTypeId="c924-5a68-471a-2fd5" profileTypeName="08 Ability (Unit)">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="A Doombull equipped with a pair of Doombull Axes makes 5 attacks instead of 4."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="cfd6-eaa6-1612-82c5" name="Doombull Axe" hidden="false" targetId="f750-04bc-d522-f6d5" type="profile">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="set" field="0bd7-bded-a0e0-19a0" value="5">
+                      <repeats/>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e27-e56b-89c6-1303" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="aeb1-c39d-0177-2a5d" name="General" hidden="false" targetId="9a9a-7579-ec51-6d76" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ea8f-7372-d84f-43a5" name="Command Traits" hidden="false" targetId="b384-25a9-1c79-31de" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="c7f0-56b5-3863-55e7" name="Artefacts" hidden="false" targetId="f1d8-fbad-26b3-1504" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="pts" costTypeId="points" value="120.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0175-588e-be40-acf6" name="Ghorgon" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="d8dd-d5c3-58c5-e557" name="Ghorgon" hidden="false" profileTypeId="1960-ca8e-67ce-2014" profileTypeName="01 Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="8655-6213-2824-1752" value="*"/>
+            <characteristic name="Wounds" characteristicTypeId="cd0e-fea6-411f-904d" value="14"/>
+            <characteristic name="Bravery" characteristicTypeId="0c85-bf79-836b-759e" value="7"/>
+            <characteristic name="Save" characteristicTypeId="f8dd-4f2a-8543-4f36" value="5+"/>
+          </characteristics>
+        </profile>
+        <profile id="b4de-7c4e-ac3e-448b" name="Ravenous Bloodgreed" hidden="false" profileTypeId="c924-5a68-471a-2fd5" profileTypeName="08 Ability (Unit)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="Each time you roll a wound roll of 5 or more for a Ghorgon&apos;s attack it [...] can immediately make 1 extra attack with the same melee weapon."/>
+          </characteristics>
+        </profile>
+        <profile id="7606-0222-182f-5c4f" name="Strength from Flesh" hidden="false" profileTypeId="c924-5a68-471a-2fd5" profileTypeName="08 Ability (Unit)">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="A Ghorgon heals D3 wounds at the end of any combat phase in which it inflicted any wounds with its Huge Slavering Maw."/>
+          </characteristics>
+        </profile>
+        <profile id="c697-15c8-7e5b-346c" name="Ghorgon" hidden="false" profileTypeId="90d1-a434-348d-a861" profileTypeName="04 Wound Table">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Variable 1" characteristicTypeId="420a-645a-ab28-93a0" value="Wounds Suffered"/>
+            <characteristic name="Variable 2" characteristicTypeId="4cdd-1e03-530f-0ff7" value="Move"/>
+            <characteristic name="Variable 3" characteristicTypeId="b1ea-56be-ba52-16e9" value="Ghorgon Blades"/>
+            <characteristic name="Variable 4" characteristicTypeId="ad26-bf56-95c4-80f1" value="Huge Slavering Maw"/>
+          </characteristics>
+        </profile>
+        <profile id="df1b-6e34-825e-ad4f" name="Ghorgon1" hidden="false" profileTypeId="90d1-a434-348d-a861" profileTypeName="04 Wound Table">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Variable 1" characteristicTypeId="420a-645a-ab28-93a0" value="0-3"/>
+            <characteristic name="Variable 2" characteristicTypeId="4cdd-1e03-530f-0ff7" value="8&quot;"/>
+            <characteristic name="Variable 3" characteristicTypeId="b1ea-56be-ba52-16e9" value="5"/>
+            <characteristic name="Variable 4" characteristicTypeId="ad26-bf56-95c4-80f1" value="2+"/>
+          </characteristics>
+        </profile>
+        <profile id="81fb-de46-92d9-e42a" name="Ghorgon2" hidden="false" profileTypeId="90d1-a434-348d-a861" profileTypeName="04 Wound Table">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Variable 1" characteristicTypeId="420a-645a-ab28-93a0" value="4-6"/>
+            <characteristic name="Variable 2" characteristicTypeId="4cdd-1e03-530f-0ff7" value="6&quot;"/>
+            <characteristic name="Variable 3" characteristicTypeId="b1ea-56be-ba52-16e9" value="4"/>
+            <characteristic name="Variable 4" characteristicTypeId="ad26-bf56-95c4-80f1" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="2516-cc0d-4326-b20f" name="Ghorgon4" hidden="false" profileTypeId="90d1-a434-348d-a861" profileTypeName="04 Wound Table">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Variable 1" characteristicTypeId="420a-645a-ab28-93a0" value="10-12"/>
+            <characteristic name="Variable 2" characteristicTypeId="4cdd-1e03-530f-0ff7" value="4&quot;"/>
+            <characteristic name="Variable 3" characteristicTypeId="b1ea-56be-ba52-16e9" value="2"/>
+            <characteristic name="Variable 4" characteristicTypeId="ad26-bf56-95c4-80f1" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="8e53-280c-5ddb-e877" name="Ghorgon3" hidden="false" profileTypeId="90d1-a434-348d-a861" profileTypeName="04 Wound Table">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Variable 1" characteristicTypeId="420a-645a-ab28-93a0" value="7-9"/>
+            <characteristic name="Variable 2" characteristicTypeId="4cdd-1e03-530f-0ff7" value="5&quot;"/>
+            <characteristic name="Variable 3" characteristicTypeId="b1ea-56be-ba52-16e9" value="3"/>
+            <characteristic name="Variable 4" characteristicTypeId="ad26-bf56-95c4-80f1" value="3+"/>
+          </characteristics>
+        </profile>
+        <profile id="50a8-c64c-688b-5167" name="Ghorgon5" hidden="false" profileTypeId="90d1-a434-348d-a861" profileTypeName="04 Wound Table">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Variable 1" characteristicTypeId="420a-645a-ab28-93a0" value="13+"/>
+            <characteristic name="Variable 2" characteristicTypeId="4cdd-1e03-530f-0ff7" value="3&quot;"/>
+            <characteristic name="Variable 3" characteristicTypeId="b1ea-56be-ba52-16e9" value="1"/>
+            <characteristic name="Variable 4" characteristicTypeId="ad26-bf56-95c4-80f1" value="4+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="2f93-d578-c731-3ded" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="205f-b079-34d7-3d76" name="New CategoryLink" hidden="false" targetId="1959-9f6a-3056-913a" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="686c-c0e6-3eec-81a1" name="Ghorgon Blades" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c713-f47d-ebe8-26d1" name="Ghorgon Blades" hidden="false" profileTypeId="96df-ab28-5d72-bbb3" profileTypeName="03 Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="655c-362e-a663-3e50" value="Melee"/>
+                <characteristic name="Range" characteristicTypeId="ee32-7f8e-ccd7-b7b0" value="2&quot;"/>
+                <characteristic name="Attacks" characteristicTypeId="0bd7-bded-a0e0-19a0" value="*"/>
+                <characteristic name="To Hit" characteristicTypeId="87f2-fb99-33f9-7269" value="3+"/>
+                <characteristic name="To Wound" characteristicTypeId="8842-17f1-9794-4efc" value="3+"/>
+                <characteristic name="Rend" characteristicTypeId="f578-d2a5-f0d3-b707" value="-1"/>
+                <characteristic name="Damage" characteristicTypeId="b5b6-4cbd-661d-1b70" value="3"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15ea-020f-bc5f-b0a0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc7a-82fe-0215-3bef" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2a1f-a1ca-cab3-5589" name="Huge Slavering Maw" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d2ee-b4bf-b661-ce38" name="Huge Slavering Maw" hidden="false" profileTypeId="96df-ab28-5d72-bbb3" profileTypeName="03 Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="655c-362e-a663-3e50" value="Melee"/>
+                <characteristic name="Range" characteristicTypeId="ee32-7f8e-ccd7-b7b0" value="1&quot;"/>
+                <characteristic name="Attacks" characteristicTypeId="0bd7-bded-a0e0-19a0" value="1"/>
+                <characteristic name="To Hit" characteristicTypeId="87f2-fb99-33f9-7269" value="4+"/>
+                <characteristic name="To Wound" characteristicTypeId="8842-17f1-9794-4efc" value="*"/>
+                <characteristic name="Rend" characteristicTypeId="f578-d2a5-f0d3-b707" value="-1"/>
+                <characteristic name="Damage" characteristicTypeId="b5b6-4cbd-661d-1b70" value="D6"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a088-b976-5d4d-f1c5" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ed9-fb40-ecd4-003e" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="200.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e08e-646d-89d8-9f38" name="Chaos Spawn" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="eb90-518e-b093-8daf" name="Writhing Tentacles" hidden="false" profileTypeId="c924-5a68-471a-2fd5" profileTypeName="Unit Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="If you roll a double when determining the number of attacks made by a Chaos Spawn&apos;s Freakish Mutations, resolve those attacks with a To Hit and To Wound characteristic of 3+ instead of 4+."/>
+          </characteristics>
+        </profile>
+        <profile id="3776-bb30-c121-b472" name="Chaos Spawn" hidden="false" profileTypeId="1960-ca8e-67ce-2014" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="8655-6213-2824-1752" value="2D6&quot;"/>
+            <characteristic name="Wounds" characteristicTypeId="cd0e-fea6-411f-904d" value="5"/>
+            <characteristic name="Bravery" characteristicTypeId="0c85-bf79-836b-759e" value="10"/>
+            <characteristic name="Save" characteristicTypeId="f8dd-4f2a-8543-4f36" value="5+"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="cedf-72c4-c236-c5e4" name="New CategoryLink" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="90a9-df45-9d35-1964" name="New CategoryLink" hidden="false" targetId="a934-6d15-9932-b7ea" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="021d-bc12-3e50-5f3e" name="Chaos Spawn" hidden="false" collective="false" type="model">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5b70-2a4a-56ce-4088" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7a60-6ff6-962b-25e8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="1709-3b5a-941b-829d" name="Freakish Mutations" hidden="false" collective="true" type="upgrade">
+              <profiles>
+                <profile id="19e7-8ae6-626e-ce54" name="Freakish Mutations" hidden="false" profileTypeId="96df-ab28-5d72-bbb3" profileTypeName="Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Type" characteristicTypeId="655c-362e-a663-3e50" value="Melee"/>
+                    <characteristic name="Range" characteristicTypeId="ee32-7f8e-ccd7-b7b0" value="1&quot;"/>
+                    <characteristic name="Attacks" characteristicTypeId="0bd7-bded-a0e0-19a0" value="2D6"/>
+                    <characteristic name="To Hit" characteristicTypeId="87f2-fb99-33f9-7269" value="4+"/>
+                    <characteristic name="To Wound" characteristicTypeId="8842-17f1-9794-4efc" value="4+"/>
+                    <characteristic name="Rend" characteristicTypeId="f578-d2a5-f0d3-b707" value="-"/>
+                    <characteristic name="Damage" characteristicTypeId="b5b6-4cbd-661d-1b70" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f51-a41b-de71-1ab3" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ad6-c12e-dbf8-9737" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="50.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="8c43-46bd-5cea-b174" name="Mark of Chaos" hidden="false" targetId="a438-af62-658b-de29" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="307e-f864-14cd-c4b7" name="Brayherd Artefacts" hidden="false" collective="false">
@@ -4400,6 +5354,142 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup id="a438-af62-658b-de29" name="Mark of Chaos" hidden="false" collective="false" defaultSelectionEntryId="30e5-4830-ba99-7645">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad48-774b-1131-731e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4f3-3e06-0ab0-d501" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="c08f-0c28-e576-0324" name="Khorne" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5ba-37e0-f3fb-d5b8" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b0b-ce97-62c0-c607" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="2485-863e-4c38-18bb" name="New CategoryLink" hidden="false" targetId="f22b-976f-fc38-366a" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="296e-bee4-3e91-a76f" name="Nurgle" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f81c-b558-055c-5836" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af1b-9598-398a-329e" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="6651-7c79-69ec-c8d3" name="New CategoryLink" hidden="false" targetId="dd77-19a5-28eb-cbec" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c07b-0aac-1824-5260" name="Slaanesh" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4215-151a-393a-bb98" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="985a-6742-08eb-12ac" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="961a-e030-62c9-0885" name="New CategoryLink" hidden="false" targetId="3963-2e99-aa63-c65e" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="aeb4-6241-4746-b980" name="Tzeentch" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe04-cd14-f45e-0f9e" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e876-4057-fce4-df01" type="min"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink id="5563-31ba-f586-546e" name="New CategoryLink" hidden="false" targetId="4f53-8230-2f02-9639" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+            <categoryLink id="d12b-f042-bf3f-86d3" name="New CategoryLink" hidden="false" targetId="7d12-f4c5-3832-0f19" primary="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+            </categoryLink>
+          </categoryLinks>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="30e5-4830-ba99-7645" name="Chaos" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules/>
   <sharedProfiles>
@@ -4425,6 +5515,36 @@
       <modifiers/>
       <characteristics>
         <characteristic name="Ability Details" characteristicTypeId="d4dc-8e81-bc0e-b8f0" value="The leader of this unit is a Halfhorn. A Halfhorn makes 2 attacks rather than 1."/>
+      </characteristics>
+    </profile>
+    <profile id="1a15-5086-2624-e514" name="Bullgor Axe" hidden="false" profileTypeId="96df-ab28-5d72-bbb3" profileTypeName="03 Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="655c-362e-a663-3e50" value="Melee"/>
+        <characteristic name="Range" characteristicTypeId="ee32-7f8e-ccd7-b7b0" value="1&quot;"/>
+        <characteristic name="Attacks" characteristicTypeId="0bd7-bded-a0e0-19a0" value="3"/>
+        <characteristic name="To Hit" characteristicTypeId="87f2-fb99-33f9-7269" value="4+"/>
+        <characteristic name="To Wound" characteristicTypeId="8842-17f1-9794-4efc" value="3+"/>
+        <characteristic name="Rend" characteristicTypeId="f578-d2a5-f0d3-b707" value="-1"/>
+        <characteristic name="Damage" characteristicTypeId="b5b6-4cbd-661d-1b70" value="2"/>
+      </characteristics>
+    </profile>
+    <profile id="f750-04bc-d522-f6d5" name="Doombull Axe" hidden="false" profileTypeId="96df-ab28-5d72-bbb3" profileTypeName="03 Weapon">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <characteristics>
+        <characteristic name="Type" characteristicTypeId="655c-362e-a663-3e50" value="Melee"/>
+        <characteristic name="Range" characteristicTypeId="ee32-7f8e-ccd7-b7b0" value="1&quot;"/>
+        <characteristic name="Attacks" characteristicTypeId="0bd7-bded-a0e0-19a0" value="4"/>
+        <characteristic name="To Hit" characteristicTypeId="87f2-fb99-33f9-7269" value="3+"/>
+        <characteristic name="To Wound" characteristicTypeId="8842-17f1-9794-4efc" value="3+"/>
+        <characteristic name="Rend" characteristicTypeId="f578-d2a5-f0d3-b707" value="-1"/>
+        <characteristic name="Damage" characteristicTypeId="b5b6-4cbd-661d-1b70" value="2"/>
       </characteristics>
     </profile>
   </sharedProfiles>
