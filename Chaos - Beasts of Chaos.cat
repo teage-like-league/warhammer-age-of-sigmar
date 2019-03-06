@@ -112,7 +112,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="c126-9deb-39ec-af3d" name="Allegiance: Beasts of Chaos" book="Chaos Battletome: Beasts of Chaos" page="60" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -158,31 +160,7 @@
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Battle Trait Details" characteristicTypeId="9fdd-b4b1-5f7a-0970" value="You can summon units of BEASTS OF CHAOS to the battlefield if you collect enough Primordial Call points. At the start of your hero phase, you receive 1 Primordial Call point. In addition, in your hero phase you can choose one friendly BEASTS OF CHAOS HERO within 3&quot; of the HERDSTONE you set up at the start of the battle and say that they will enact a savage blood ritual. If you do so, pick a friendly BEASTS OF CHAOS unit within 3&quot; of the HERDSTONE. That unit suffers D3 mortal wounds. For each mortal wound inflicted on that unit, you receive 1 Primordial Call point. If you have 3 or more Primordial Call points at the end of your movement phase, you can summon one or more units from the following list onto the battlefield, and add them to your army. Each unit you summon costs a number of Primordial Call points, as shown on the list, and you can only summon a unit if you have enough Primordial Call points remaining to pay its cost. Summoned units must be set up wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units. Subtract the cost of the summoned unit from the number of Primordial Call points you have available immediately after it has been set up.
-
-Unit 		Cost
-1 Chimera 		10
-1 Ghorgon 		10
-3 Tzaangor Skyfires 	10
-1 Chaos Gargant 	9
-1 Cygor 		9
-10 Tzaangors 		9
-3 Bullgors 		8
-1 Jabberslythe 	8
-3 Dragon Ogors 	7
-3 Tzaangor Enlightened
-on Discs of Tzeentch 	7
-10 Bestigors 		6
-1 Cockatrice 		5
-3 Tzaangor Enlightened 	5
-5 Centigors 		4
-10 Chaos Warhounds 	4
-10 Gors 		4
-10 Ungor Raiders 	4
-1 Chaos Spawn 	3
-1 Tuskgor Chariot 	3
-1 Razorgor 		3
-10 Ungors 		3"/>
+                    <characteristic name="Battle Trait Details" characteristicTypeId="9fdd-b4b1-5f7a-0970" value="You can summon units of BEASTS OF CHAOS to the battlefield if you collect enough Primordial Call points. At the start of your hero phase, you receive 1 Primordial Call point. In addition, in your hero phase you can choose one friendly BEASTS OF CHAOS HERO within 3&quot; of the HERDSTONE you set up at the start of the battle and say that they will enact a savage blood ritual. If you do so, pick a friendly BEASTS OF CHAOS unit within 3&quot; of the HERDSTONE. That unit suffers D3 mortal wounds. For each mortal wound inflicted on that unit, you receive 1 Primordial Call point. If you have 3 or more Primordial Call points at the end of your movement phase, you can summon one or more units from the following list onto the battlefield, and add them to your army. Each unit you summon costs a number of Primordial Call points, as shown on the list, and you can only summon a unit if you have enough Primordial Call points remaining to pay its cost. Summoned units must be set up wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units. Subtract the cost of the summoned unit from the number of Primordial Call points you have available immediately after it has been set up.  Unit   Cost 1 Chimera   10 1 Ghorgon   10 3 Tzaangor Skyfires  10 1 Chaos Gargant  9 1 Cygor   9 10 Tzaangors   9 3 Bullgors   8 1 Jabberslythe  8 3 Dragon Ogors  7 3 Tzaangor Enlightened on Discs of Tzeentch  7 10 Bestigors   6 1 Cockatrice   5 3 Tzaangor Enlightened  5 5 Centigors   4 10 Chaos Warhounds  4 10 Gors   4 10 Ungor Raiders  4 1 Chaos Spawn  3 1 Tuskgor Chariot  3 1 Razorgor   3 10 Ungors   3"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -232,7 +210,9 @@ on Discs of Tzeentch 	7
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="ff3f-9e47-daac-acb3" name="Darkwalkers" book="Chaos Battletome: Beats of Chaos" page="69" hidden="false" collective="false" type="upgrade">
                       <profiles>
@@ -263,7 +243,9 @@ on Discs of Tzeentch 	7
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="a99b-76e8-94e2-de1a" name="Gavespawn" book="Chaos Battletome: Beats of Chaos" page="70" hidden="false" collective="false" type="upgrade">
                       <profiles>
@@ -294,7 +276,9 @@ on Discs of Tzeentch 	7
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="pts" costTypeId="points" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups/>
@@ -302,7 +286,9 @@ on Discs of Tzeentch 	7
                 </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="pts" costTypeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -310,7 +296,9 @@ on Discs of Tzeentch 	7
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks/>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e46d-5232-9e66-e6d1" name="Beastlord" book="Chaos Battletome: Beasts of Chaos" page="86" hidden="false" collective="false" type="unit">
       <profiles>
@@ -432,7 +420,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -462,7 +452,9 @@ on Discs of Tzeentch 	7
           <categoryLinks/>
         </entryLink>
       </entryLinks>
-      <costs/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5637-dcfd-8a5f-81f4" name="General" hidden="false" collective="false" type="upgrade">
       <profiles/>
@@ -473,6 +465,20 @@ on Discs of Tzeentch 	7
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f83a-98c1-bdec-0dd3" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a55e-654d-9709-407a" type="max"/>
       </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="pts" costTypeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bcb5-07ca-3dd3-e605" name="Great Bray-Shaman" book="Chaos Battletome: Beats of Chaos" page="86" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups/>
@@ -495,152 +501,10 @@ on Discs of Tzeentch 	7
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d6c-a5b4-0d66-af59" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d6c-a5b4-0d66-af59" type="max"/>
       </constraints>
       <categoryLinks/>
-      <selectionEntries>
-        <selectionEntry id="582e-722a-88a5-5dca" name="0. Dominator" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="501e-f20c-cd84-16b4" name="Dominator" book="Chaos Battletome: Beasts of Chaos" page="68" hidden="false" profileTypeId="c749-bae4-71a8-0c36" profileTypeName="Command Trait">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Command Trait Details" characteristicTypeId="ee96-6f3a-e5ca-2350" value="You can re-roll charge rolls made for friendly ALLHERD units wholly within 18&quot; of this general if this general is within 3&quot; of any enemy units."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="6229-8b73-6e11-1cbe" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="e56c-dafa-2fd6-604b" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6229-8b73-6e11-1cbe" type="min"/>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e56c-dafa-2fd6-604b" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs/>
-        </selectionEntry>
-        <selectionEntry id="73e9-547f-810b-7548" name="0. Nomadic Leader" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="4c9e-b6f5-43b4-d3b9" name="Nomadic Leader" book="Chaos Battletome: Beasts of Chaos" page="69" hidden="false" profileTypeId="c749-bae4-71a8-0c36" profileTypeName="Command Trait">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Command Trait Details" characteristicTypeId="ee96-6f3a-e5ca-2350" value="Add 1 to run rolls for friendly DARKWALKERS units while they are wholly within 12&quot; of this general."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="c674-4db4-dcbd-778c" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="d428-1ee3-3645-7685" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d428-1ee3-3645-7685" type="min"/>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c674-4db4-dcbd-778c" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs/>
-        </selectionEntry>
-        <selectionEntry id="deb2-bf93-c03a-403f" name="0. Unravelling Aura" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="ea20-baac-613f-d82f" name="Unravelling Aura" book="Chaos Battletome: Beasts of Chaos" page="70" hidden="false" profileTypeId="c749-bae4-71a8-0c36" profileTypeName="Command Trait">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="Command Trait Details" characteristicTypeId="ee96-6f3a-e5ca-2350" value="You can re-roll charge rolls made for friendly ALLHERD units wholly within 18&quot; of this general if this general is within 3&quot; of any enemy units."/>
-              </characteristics>
-            </profile>
-          </profiles>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a99b-76e8-94e2-de1a" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="236e-9f1a-22f7-2f55" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a99b-76e8-94e2-de1a" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="set" field="4048-bc73-0fc7-d9ae" value="1">
-              <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a99b-76e8-94e2-de1a" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4048-bc73-0fc7-d9ae" type="min"/>
-            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="236e-9f1a-22f7-2f55" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks/>
-          <costs/>
-        </selectionEntry>
-      </selectionEntries>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="9d43-cf87-1d56-4f53" name="Chaos Command Traits" hidden="false" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
@@ -651,7 +515,7 @@ on Discs of Tzeentch 	7
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a52-4563-0182-ca2f" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2d2-b07c-1313-8bc6" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -680,6 +544,22 @@ on Discs of Tzeentch 	7
           <rules/>
           <infoLinks/>
           <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="ac54-e9d1-9a8c-eff3" name="Greatfray Command Traits" hidden="false" targetId="30b7-03bf-1010-7c13" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a52-4563-0182-ca2f" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <constraints/>
           <categoryLinks/>
         </entryLink>
@@ -736,7 +616,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e1d7-e446-58dd-6ed9" name="6. Shadowpelt" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -758,7 +640,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="526e-e289-3781-a584" name="5. Oracle of the Dark Tongue" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -780,7 +664,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7f6d-9396-1d1e-d5b6" name="4. Malevolent Despoiler" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -802,7 +688,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1824-e589-2e3e-01b9" name="3. Apex Predator" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -824,7 +712,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="58c2-59ef-06ef-7ebf" name="2. Indomitable Beast" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -846,7 +736,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -903,7 +795,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3e09-b996-d02b-4410" name="6. Rugged Hide" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -925,7 +819,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="de68-5eba-91fa-b73f" name="5. Roaring Brute" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -947,7 +843,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2a6d-32f5-819a-20de" name="4. Gouge-tusks" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -969,7 +867,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4182-92cb-7f6d-9498" name="3. Gorger" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -991,7 +891,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0a28-c4fb-9e8a-96d6" name="2. Rampant Juggernaut" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1013,7 +915,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1070,7 +974,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0b14-5669-6ec1-dbe8" name="6. Ancient Beyond Knowing" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1092,7 +998,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b16b-b44c-cfbe-05f2" name="5. Adamantine Scales" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1114,7 +1022,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8f3f-6e48-a22b-0b9a" name="4. Lightning-fast Monstrosity" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1136,7 +1046,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="215e-1308-b534-9f40" name="3. Father of the Storm" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1158,7 +1070,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d01b-0e7f-801f-aa55" name="2. Magnetic Monstrosity" book="" page="" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1180,7 +1094,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1190,18 +1106,9 @@ on Discs of Tzeentch 	7
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers>
-        <modifier type="increment" field="8c74-c3c0-c248-7b55" value="1">
-          <repeats>
-            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="be17-6bbd-b857-3f43" repeats="1" roundUp="false"/>
-          </repeats>
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c7f-0242-047e-7b28" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c74-c3c0-c248-7b55" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -1215,7 +1122,7 @@ on Discs of Tzeentch 	7
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2d2-b07c-1313-8bc6" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1308,7 +1215,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="bbd2-5957-985c-aa34" name="5. Bleating Gnarlstaff" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1330,7 +1239,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="8b68-9c93-7301-7129" name="4. Volcanic Axe" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1352,7 +1263,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b9bb-509a-6fc6-d2a0" name="3. The Knowing Eye" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1374,7 +1287,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5ddb-f2af-823b-fbc0" name="2. Brayblast Trumpet" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1384,8 +1299,7 @@ on Discs of Tzeentch 	7
               <infoLinks/>
               <modifiers/>
               <characteristics>
-                <characteristic name="Artefact Details" characteristicTypeId="0918-c47a-d84e-c0cf" value="Add 1 to hit rolls for attacks made by friendly BRAYHERD units while they are wholly within 18&quot; of the bearer if those units used the Brayherd Ambush battle trait to set up on the battlefield in that turn.
-"/>
+                <characteristic name="Artefact Details" characteristicTypeId="0918-c47a-d84e-c0cf" value="Add 1 to hit rolls for attacks made by friendly BRAYHERD units while they are wholly within 18&quot; of the bearer if those units used the Brayherd Ambush battle trait to set up on the battlefield in that turn. "/>
               </characteristics>
             </profile>
           </profiles>
@@ -1397,7 +1311,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5bde-4f71-e72b-9cb9" name="1. Ramhorn Helm" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1419,7 +1335,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1476,7 +1394,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c378-f2ce-05eb-21fc" name="5. Champion’s Doomcloak" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1498,7 +1418,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="cf67-2f60-4646-be2b" name="4. Blackened Armour of Chaos" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1520,7 +1442,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="78b0-add3-75b3-0688" name="3. Glyph-etched Talisman" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1542,7 +1466,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c2be-c20b-f0b3-8721" name="2. Gilded Horns" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1564,7 +1490,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a18e-0f48-8dca-3968" name="1. Cleaver of the Brass Bull" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1586,7 +1514,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1643,7 +1573,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="54f2-72f0-cad1-932b" name="5. Tanglehorn Familiars" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1665,7 +1597,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e5d6-fe36-3aa9-7126" name="4. Horn of the Tempest" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1687,7 +1621,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d439-bc1f-02b0-9af7" name="3. Thunderstrike Lodestone" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1709,7 +1645,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9373-21f8-36f3-454f" name="2. Lightning-chained Bracers" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1731,7 +1669,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ca5c-d9c7-ac77-2ed4" name="1. Ancestral Azyrite Blade" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1753,7 +1693,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -1842,7 +1784,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9ef1-1487-d7da-343f" name="6. Titanic Fury" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1865,7 +1809,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="fdc5-b365-b162-aec3" name="4. Tendrils of Atrophy" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1888,7 +1834,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="4839-fd3b-73fe-b6f7" name="1. Viletide" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1911,7 +1859,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b696-efbc-d85b-62c4" name="2. Vicious Stranglethorns" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1934,7 +1884,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="75da-ed95-ad1d-f88b" name="3. Savage Dominion" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1957,7 +1909,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -2016,7 +1970,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3065-fb69-653d-e186" name="2. Hailstorm" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2039,7 +1995,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6224-e176-b8cb-1486" name="3. Sundering Blades" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2062,7 +2020,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -2088,9 +2048,7 @@ on Discs of Tzeentch 	7
           </conditionGroups>
         </modifier>
       </modifiers>
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae57-89c1-6297-2d68" type="max"/>
-      </constraints>
+      <constraints/>
       <categoryLinks/>
       <selectionEntries>
         <selectionEntry id="663b-dfbf-6bff-cdff" name="0. Blade of the Desecrator" hidden="false" collective="false" type="upgrade">
@@ -2110,35 +2068,50 @@ on Discs of Tzeentch 	7
           <modifiers>
             <modifier type="set" field="222c-2e67-8c77-2cfc" value="1">
               <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
             <modifier type="set" field="acc5-8316-32d5-df87" value="1">
               <repeats/>
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
-              </conditions>
-              <conditionGroups/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="663b-dfbf-6bff-cdff" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4e0e-664d-51ea-0929" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="222c-2e67-8c77-2cfc" type="max"/>
             <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="acc5-8316-32d5-df87" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3992-515d-6abd-9d27" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6517-6b34-f0bb-8e51" name="0. Desolate Shard" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2185,7 +2158,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6ca2-0d17-73a3-24ed" name="0. Mutating Gnarlblade" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2232,7 +2207,9 @@ on Discs of Tzeentch 	7
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
@@ -2245,7 +2222,168 @@ on Discs of Tzeentch 	7
       <modifiers/>
       <constraints/>
       <categoryLinks/>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="8fad-606d-bd8b-cb25" name="0. Dominator" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d6d2-2730-b596-3797" name="Dominator" book="Chaos Battletome: Beasts of Chaos" page="68" hidden="false" profileTypeId="c749-bae4-71a8-0c36" profileTypeName="Command Trait">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Command Trait Details" characteristicTypeId="ee96-6f3a-e5ca-2350" value="You can re-roll charge rolls made for friendly ALLHERD units wholly within 18&quot; of this general if this general is within 3&quot; of any enemy units."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a52-4563-0182-ca2f" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="bce8-3c84-2d83-5b43" value="1">
+              <repeats/>
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a52-4563-0182-ca2f" type="equalTo"/>
+                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="708b-753f-8b81-b468" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="28df-c61c-3d84-a243" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="bce8-3c84-2d83-5b43" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="28df-c61c-3d84-a243" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9c4-30a9-de43-8619" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9fe1-2598-da67-5d57" name="0. Nomadic Leader" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f08a-1154-2bd1-af72" name="Nomadic Leader" book="Chaos Battletome: Beasts of Chaos" page="69" hidden="false" profileTypeId="c749-bae4-71a8-0c36" profileTypeName="Command Trait">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Command Trait Details" characteristicTypeId="ee96-6f3a-e5ca-2350" value="Add 1 to run rolls for friendly DARKWALKERS units while they are wholly within 12&quot; of this general."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="adfd-1524-2776-8bb8" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="a1b8-e4d3-ea0a-ef7e" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="adfd-1524-2776-8bb8" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="a1b8-e4d3-ea0a-ef7e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="011e-350d-7723-3df8" name="0. Unravelling Aura" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="2a28-4f10-06e1-7be3" name="Unravelling Aura" book="Chaos Battletome: Beasts of Chaos" page="70" hidden="false" profileTypeId="c749-bae4-71a8-0c36" profileTypeName="Command Trait">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Command Trait Details" characteristicTypeId="ee96-6f3a-e5ca-2350" value="You can re-roll charge rolls made for friendly ALLHERD units wholly within 18&quot; of this general if this general is within 3&quot; of any enemy units."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a99b-76e8-94e2-de1a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="fb18-09a2-f0ae-b1e1" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a99b-76e8-94e2-de1a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="c077-eaa8-76d5-4d46" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a99b-76e8-94e2-de1a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="fb18-09a2-f0ae-b1e1" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c077-eaa8-76d5-4d46" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="pts" costTypeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
