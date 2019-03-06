@@ -20,10 +20,64 @@
       <modifiers/>
       <constraints/>
     </categoryEntry>
+    <categoryEntry id="e1e2-fb4d-e04f-fe2e" name="BEASTS OF CHAOS" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="3b16-6552-3b8e-0f3b" name="GOR" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
+    <categoryEntry id="bcd2-7dac-f8f7-3e5b" name="BEASTLORD" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+    </categoryEntry>
   </categoryEntries>
   <forceEntries/>
   <selectionEntries/>
-  <entryLinks/>
+  <entryLinks>
+    <entryLink id="4203-8447-3f02-af74" name="Beastlord" hidden="false" targetId="e46d-5232-9e66-e6d1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="e85a-eac4-716d-c414" name="New CategoryLink" hidden="false" targetId="6c6b-e787-f9b8-a510" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6f8f-3443-8caa-cf23" name="Allegiance" hidden="false" targetId="5332-0523-4c84-2c03" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="bb7e-d8bd-022b-5676" name="New CategoryLink" hidden="false" targetId="87e8-c095-f059-5f7b" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="5332-0523-4c84-2c03" name="Allegiance" book="Chaos Battletome: Beast of Chaos" hidden="false" collective="false" type="unit">
       <profiles/>
@@ -37,18 +91,18 @@
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="10cf-53fe-a729-a452" name="Allegiance" hidden="false" collective="false">
+        <selectionEntryGroup id="9c45-73b1-a611-72ff" name="Allegiance" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3bc6-64b0-9f01-4718" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8c9f-6546-336a-109b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6d7a-8b7d-3178-7e8f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a232-8ddc-614b-febe" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="0d9e-f184-1f9a-4313" name="Allegiance: Chaos" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="c2d2-b07c-1313-8bc6" name="Allegiance: Chaos" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -60,9 +114,9 @@
               <entryLinks/>
               <costs/>
             </selectionEntry>
-            <selectionEntry id="317e-8812-7ee5-f594" name="Allegiance: Beasts of Chaos" book="Chaos Battletome: Beasts of Chaos" page="60" hidden="false" collective="false" type="upgrade">
+            <selectionEntry id="c126-9deb-39ec-af3d" name="Allegiance: Beasts of Chaos" book="Chaos Battletome: Beasts of Chaos" page="60" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="7728-33fe-9b75-9053" name="The Herdstone" book="Chaos Battletome: Beasts of Chaos" page="61" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
+                <profile id="b54d-18d2-8ca2-b43d" name="The Herdstone" book="Chaos Battletome: Beasts of Chaos" page="61" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -71,7 +125,7 @@
                     <characteristic name="Battle Trait Details" characteristicTypeId="9fdd-b4b1-5f7a-0970" value="After territories have been chosen but before players begin to set up their armies, you can set up one HERDSTONE (pg 103) wholly within your territory, more than 12&quot; from enemy territory and more than 1&quot; from any other terrain features. If both players can set up a terrain feature in this manner, each player rolls a dice, rolling again in the case of a tie, and whoever rolls higher can choose the order in which the terrain features are set up."/>
                   </characteristics>
                 </profile>
-                <profile id="6f76-ce23-26bf-3818" name="Brayherd Ambush" book="Chaos Battletome: Beats of Chaos" page="61" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
+                <profile id="3058-905e-3bff-9efa" name="Brayherd Ambush" book="Chaos Battletome: Beats of Chaos" page="61" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -80,7 +134,7 @@
                     <characteristic name="Battle Trait Details" characteristicTypeId="9fdd-b4b1-5f7a-0970" value="Instead of setting up a BRAYHERD unit on the battlefield, you can place it to one side and say that it is set up in ambush as a reserve unit. You can set up one reserve unit in ambush for each BEASTS OF CHAOS unit you have set up on the battlefield. At the end of your first movement phase, you must set up all friendly reserve units that are in ambush on the battlefield, wholly within 6&quot; of the edge of the battlefield and more than 9&quot; from any enemy units. Any reserve units that cannot be set up are slain."/>
                   </characteristics>
                 </profile>
-                <profile id="828d-013c-dacb-4e35" name="Creatures of the Storm" book="Chaos Battletome: Beats of Chaos" page="61" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
+                <profile id="09ad-9f26-13e4-b3f7" name="Creatures of the Storm" book="Chaos Battletome: Beats of Chaos" page="61" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -89,7 +143,7 @@
                     <characteristic name="Battle Trait Details" characteristicTypeId="9fdd-b4b1-5f7a-0970" value="At the start of your hero phase, roll a dice. Each friendly THUNDERSCORN unit more than 3&quot; from any enemy units can move a distance in inches equal to the roll, but cannot move within 3&quot; of any enemy units."/>
                   </characteristics>
                 </profile>
-                <profile id="a916-d27b-46ac-cd3f" name="Bloodgorge" book="Chaos Battletome: Beats of Chaos" page="61" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
+                <profile id="a6e8-a662-2b98-1264" name="Bloodgorge" book="Chaos Battletome: Beats of Chaos" page="61" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -98,7 +152,7 @@
                     <characteristic name="Battle Trait Details" characteristicTypeId="9fdd-b4b1-5f7a-0970" value="At the end of the combat phase, if any attacks made by a WARHERD unit in that combat phase destroyed any enemy units, heal D3 wounds allocated to that WARHERD unit."/>
                   </characteristics>
                 </profile>
-                <profile id="f4b4-7d83-1551-eb87" name="Allegiance: Beasts of Chaos" book="Chaos Battletome: Beats of Chaos" page="61" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
+                <profile id="3a87-1513-f20b-dd1b" name="Allegiance: Beasts of Chaos" book="Chaos Battletome: Beats of Chaos" page="61" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -139,19 +193,19 @@ on Discs of Tzeentch 	7
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups>
-                <selectionEntryGroup id="c91a-6bc4-2a62-7cac" name="Greatfray" book="Chaos Battletome: Beats of Chaos" page="61" hidden="false" collective="false">
+                <selectionEntryGroup id="ab8f-623c-5809-9780" name="Greatfray" book="Chaos Battletome: Beats of Chaos" page="61" hidden="false" collective="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2274-287a-79f8-2a4b" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f404-6448-7bff-d9db" type="max"/>
                   </constraints>
                   <categoryLinks/>
                   <selectionEntries>
-                    <selectionEntry id="429b-1863-ca2f-fe8f" name="Allheard" book="Chaos Battletome: Beats of Chaos" page="68" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="708b-753f-8b81-b468" name="Allherd" book="Chaos Battletome: Beats of Chaos" page="68" hidden="false" collective="false" type="upgrade">
                       <profiles>
-                        <profile id="d3fb-7eb6-31e8-01b7" name="Bestial Might" book="Chaos Battletome: Beasts of Chaos" page="68" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
+                        <profile id="91f8-1b57-0995-fc8d" name="Bestial Might" book="Chaos Battletome: Beasts of Chaos" page="68" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
                           <profiles/>
                           <rules/>
                           <infoLinks/>
@@ -160,7 +214,7 @@ on Discs of Tzeentch 	7
                             <characteristic name="Battle Trait Details" characteristicTypeId="9fdd-b4b1-5f7a-0970" value="Subtract 1 from battleshock rolls made for ALLHERD units in the battleshock phase if they were picked to fight in the combat phase of the same turn."/>
                           </characteristics>
                         </profile>
-                        <profile id="daa7-8f19-8dee-78f9" name="Booming Roar" book="Chaos Battletoam: Beasts of Chaos" page="68" hidden="false" profileTypeId="f71f-b0a4-730e-ced3" profileTypeName="Command Abilities">
+                        <profile id="af96-dc22-3cfc-b1fe" name="Booming Roar" book="Chaos Battletoam: Beasts of Chaos" page="68" hidden="false" profileTypeId="f71f-b0a4-730e-ced3" profileTypeName="Command Abilities">
                           <profiles/>
                           <rules/>
                           <infoLinks/>
@@ -180,8 +234,27 @@ on Discs of Tzeentch 	7
                       <entryLinks/>
                       <costs/>
                     </selectionEntry>
-                    <selectionEntry id="46e7-1c9f-2115-98e8" name="Darkwalkers" book="Chaos Battletome: Beats of Chaos" page="69" hidden="false" collective="false" type="upgrade">
-                      <profiles/>
+                    <selectionEntry id="ff3f-9e47-daac-acb3" name="Darkwalkers" book="Chaos Battletome: Beats of Chaos" page="69" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="6cac-f6ca-a59a-be8c" name="Shadowbeasts" book="Chaos Battletome: Beasts of Chaos" page="69" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Battle Trait Details" characteristicTypeId="9fdd-b4b1-5f7a-0970" value="WARHERD and THUNDERSCORN units in a DARKWALKERS army are considered to have the BRAYHERD keyword for the purposes of the Brayherd Ambush battle trait (pg 61). In addition, up to half (rounding up) of the reserve units that are set up in ambush can arrive in your second movement phase instead of your first movement phase."/>
+                          </characteristics>
+                        </profile>
+                        <profile id="b4cf-e347-80ff-6e89" name="Savage Encirclement" book="Chaos Battletome: Beats of Chaos" page="69" hidden="false" profileTypeId="f71f-b0a4-730e-ced3" profileTypeName="Command Abilities">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Command Ability Details" characteristicTypeId="1b71-4c83-4e8c-093f" value="You can use this command ability at the end of your movement phase. If you do so, pick a friendly DARKWALKERS unit that is more than 9&quot; from any enemy units and wholly within 18&quot; of a friendly DARKWALKERS HERO. Remove that unit from the battlefield and place it to one side. At the end of your next movement phase, set that unit up again anywhere on the battlefield more than 9&quot; from any enemy units."/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
@@ -192,8 +265,27 @@ on Discs of Tzeentch 	7
                       <entryLinks/>
                       <costs/>
                     </selectionEntry>
-                    <selectionEntry id="e82c-51a5-4229-1b2d" name="Gavespawn" book="Chaos Battletome: Beats of Chaos" page="70" hidden="false" collective="false" type="upgrade">
-                      <profiles/>
+                    <selectionEntry id="a99b-76e8-94e2-de1a" name="Gavespawn" book="Chaos Battletome: Beats of Chaos" page="70" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="47fa-9c0c-98e9-5503" name="Gift of Morghur" book="Chaos Battletome: Beasts of Chaos" page="70" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Battle Trait Details" characteristicTypeId="9fdd-b4b1-5f7a-0970" value="If a friendly GAVESPAWN HERO is slain, roll a dice before removing the model. On a 2+ one CHAOS SPAWN is added to your army. Set up the CHAOS SPAWN anywhere on the battlefield within 6&quot; of the slain HERO. If the HERO had the KHORNE, NURGLE, SLAANESH or TZEENTCH keyword, the same keyword must be chosen for the CHAOS SPAWN . If they did not, you cannot use the Cursed of the Dark Gods ability to choose a keyword for that CHAOS SPAWN ."/>
+                          </characteristics>
+                        </profile>
+                        <profile id="99a1-3d2f-06b6-5480" name="Propagator of Devolution" book="Chaos Battletome: Beats of Chaos" page="70" hidden="false" profileTypeId="f71f-b0a4-730e-ced3" profileTypeName="Command Abilities">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Command Ability Details" characteristicTypeId="1b71-4c83-4e8c-093f" value="You can use this command ability at the start of the combat phase. If you do so, pick a friendly GAVESPAWN unit wholly within 12&quot; of a friendly GAVESPAWN CHAOS SPAWN . Add 1 to the Attacks characteristic of that unit’s melee weapons until the end of that phase."/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
                       <rules/>
                       <infoLinks/>
                       <modifiers/>
@@ -220,6 +312,173 @@ on Discs of Tzeentch 	7
       <entryLinks/>
       <costs/>
     </selectionEntry>
+    <selectionEntry id="e46d-5232-9e66-e6d1" name="Beastlord" book="Chaos Battletome: Beasts of Chaos" page="86" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="017f-ba11-e9cf-a6e0" name="Beastlord" book="" hidden="false" profileTypeId="1960-ca8e-67ce-2014" profileTypeName="Unit">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Move" characteristicTypeId="8655-6213-2824-1752" value="6&quot;"/>
+            <characteristic name="Wounds" characteristicTypeId="cd0e-fea6-411f-904d" value="5"/>
+            <characteristic name="Bravery" characteristicTypeId="0c85-bf79-836b-759e" value="7"/>
+            <characteristic name="Save" characteristicTypeId="f8dd-4f2a-8543-4f36" value="4+"/>
+          </characteristics>
+        </profile>
+        <profile id="99b2-fcc8-e0cd-0d8d" name="Dual Axes" hidden="false" profileTypeId="f71f-b0a4-730e-ced3" profileTypeName="Command Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Command Ability Details" characteristicTypeId="1b71-4c83-4e8c-093f" value="You can re-roll hit rolls of 1 for attacks made with Paired Man-ripper Axes."/>
+          </characteristics>
+        </profile>
+        <profile id="4732-0d2e-f573-3995" name="Hatred of Heroes" hidden="false" profileTypeId="c137-4d1f-9d1a-524d" profileTypeName="Battle Trait">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Battle Trait Details" characteristicTypeId="9fdd-b4b1-5f7a-0970" value="You can re-roll failed wound rolls for attacks made by this model that target a HERO."/>
+          </characteristics>
+        </profile>
+        <profile id="ee8c-47bf-8517-ce8c" name="Grisly Trophy" hidden="false" profileTypeId="f71f-b0a4-730e-ced3" profileTypeName="Command Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Command Ability Details" characteristicTypeId="1b71-4c83-4e8c-093f" value="You can use this command ability in the combat phase if any attacks made by a friendly BEASTLORD with this command ability resulted in an enemy model being slain that phase. If you do so, until the end of that phase, you can re-roll wound rolls for attacks made by friendly BRAYHERD units wholly within 18&quot; of that BEASTLORD. If any attacks made by that BEASTLORD resulted in an enemy HERO or MONSTER being slain that phase, you can re-roll both hit rolls and wound rolls for attacks made by friendly BRAYHERD units wholly within 18&quot; of that BEASTLORD instead."/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="021d-7027-8614-98e4" name="BEASTS OF CHAOS" hidden="false" targetId="e1e2-fb4d-e04f-fe2e" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="0ee7-6b2a-e28b-eaa9" name="BEASTLORD" hidden="false" targetId="bcd2-7dac-f8f7-3e5b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="b695-6314-cfb4-dcb0" name="BRAYHERD" hidden="false" targetId="812f-790a-4f66-0476" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="d101-ac9d-534e-3439" name="CHAOS" hidden="false" targetId="7cdd-80ea-cbeb-8e16" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="f5e2-7f38-6c88-02fb" name="GOR" hidden="false" targetId="3b16-6552-3b8e-0f3b" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+        <categoryLink id="c5c1-8069-54c6-8d47" name="HERO" hidden="false" targetId="4e0e-664d-51ea-0929" primary="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f0af-e213-3433-9aa5" name="Paired Man-ripper Axes" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="be89-6988-fc90-09bf" name="Paired Man-ripper Axes" hidden="false" profileTypeId="96df-ab28-5d72-bbb3" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Type" characteristicTypeId="655c-362e-a663-3e50" value="Melee"/>
+                <characteristic name="Range" characteristicTypeId="ee32-7f8e-ccd7-b7b0" value="1&quot;"/>
+                <characteristic name="Attacks" characteristicTypeId="0bd7-bded-a0e0-19a0" value="6"/>
+                <characteristic name="To Hit" characteristicTypeId="87f2-fb99-33f9-7269" value="3+"/>
+                <characteristic name="To Wound" characteristicTypeId="8842-17f1-9794-4efc" value="3+"/>
+                <characteristic name="Rend" characteristicTypeId="f578-d2a5-f0d3-b707" value="-1"/>
+                <characteristic name="Damage" characteristicTypeId="b5b6-4cbd-661d-1b70" value="1"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ad6-d229-0c2f-cba7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d3c-6f99-afb1-5788" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="5a52-4563-0182-ca2f" name="General" hidden="false" targetId="5637-dcfd-8a5f-81f4" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="3c4c-e238-7395-93b9" name="Artefacts of Power" hidden="false" targetId="be98-5819-0a27-58a6" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="f588-a6b9-0e58-48da" name="Command Traits" hidden="false" targetId="52c0-aac5-f4ee-a9aa" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+      <costs/>
+    </selectionEntry>
+    <selectionEntry id="5637-dcfd-8a5f-81f4" name="General" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f83a-98c1-bdec-0dd3" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a55e-654d-9709-407a" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs/>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="52c0-aac5-f4ee-a9aa" name="Command Traits" hidden="false" collective="false">
@@ -230,7 +489,7 @@ on Discs of Tzeentch 	7
         <modifier type="set" field="hidden" value="true">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b745-17c4-8fbf-8b04" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a52-4563-0182-ca2f" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -239,7 +498,149 @@ on Discs of Tzeentch 	7
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d6c-a5b4-0d66-af59" type="max"/>
       </constraints>
       <categoryLinks/>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="582e-722a-88a5-5dca" name="0. Dominator" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="501e-f20c-cd84-16b4" name="Dominator" book="Chaos Battletome: Beasts of Chaos" page="68" hidden="false" profileTypeId="c749-bae4-71a8-0c36" profileTypeName="Command Trait">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Command Trait Details" characteristicTypeId="ee96-6f3a-e5ca-2350" value="You can re-roll charge rolls made for friendly ALLHERD units wholly within 18&quot; of this general if this general is within 3&quot; of any enemy units."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="6229-8b73-6e11-1cbe" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="e56c-dafa-2fd6-604b" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6229-8b73-6e11-1cbe" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="e56c-dafa-2fd6-604b" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="73e9-547f-810b-7548" name="0. Nomadic Leader" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4c9e-b6f5-43b4-d3b9" name="Nomadic Leader" book="Chaos Battletome: Beasts of Chaos" page="69" hidden="false" profileTypeId="c749-bae4-71a8-0c36" profileTypeName="Command Trait">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Command Trait Details" characteristicTypeId="ee96-6f3a-e5ca-2350" value="Add 1 to run rolls for friendly DARKWALKERS units while they are wholly within 12&quot; of this general."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="c674-4db4-dcbd-778c" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="d428-1ee3-3645-7685" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d428-1ee3-3645-7685" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c674-4db4-dcbd-778c" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="deb2-bf93-c03a-403f" name="0. Unravelling Aura" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ea20-baac-613f-d82f" name="Unravelling Aura" book="Chaos Battletome: Beasts of Chaos" page="70" hidden="false" profileTypeId="c749-bae4-71a8-0c36" profileTypeName="Command Trait">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Command Trait Details" characteristicTypeId="ee96-6f3a-e5ca-2350" value="You can re-roll charge rolls made for friendly ALLHERD units wholly within 18&quot; of this general if this general is within 3&quot; of any enemy units."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a99b-76e8-94e2-de1a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="236e-9f1a-22f7-2f55" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a99b-76e8-94e2-de1a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="4048-bc73-0fc7-d9ae" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a99b-76e8-94e2-de1a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4048-bc73-0fc7-d9ae" type="min"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="236e-9f1a-22f7-2f55" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks>
         <entryLink id="9d43-cf87-1d56-4f53" name="Chaos Command Traits" hidden="false" targetId="f179-9104-3d7f-1ea1" type="selectionEntryGroup">
@@ -250,7 +651,7 @@ on Discs of Tzeentch 	7
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b745-17c4-8fbf-8b04" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5a52-4563-0182-ca2f" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -288,7 +689,28 @@ on Discs of Tzeentch 	7
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd4f-79d9-7603-e999" type="max"/>
       </constraints>
@@ -308,28 +730,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -351,28 +752,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -394,28 +774,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -437,28 +796,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -480,28 +818,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -523,28 +840,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -560,7 +856,28 @@ on Discs of Tzeentch 	7
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="159a-3ba0-0c01-2873" type="notInstanceOf"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bec-5e8f-348f-bb38" type="max"/>
       </constraints>
@@ -580,28 +897,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="159a-3ba0-0c01-2873" type="notInstanceOf"/>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -623,28 +919,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="159a-3ba0-0c01-2873" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -666,28 +941,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="159a-3ba0-0c01-2873" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -709,28 +963,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="159a-3ba0-0c01-2873" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -752,28 +985,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="159a-3ba0-0c01-2873" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -795,28 +1007,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="159a-3ba0-0c01-2873" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -832,7 +1023,28 @@ on Discs of Tzeentch 	7
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba48-dd50-3f02-8341" type="max"/>
       </constraints>
@@ -852,28 +1064,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -895,28 +1086,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -938,28 +1108,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -981,28 +1130,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1024,28 +1152,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1067,28 +1174,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1104,9 +1190,18 @@ on Discs of Tzeentch 	7
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="8c74-c3c0-c248-7b55" value="1">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" childId="be17-6bbd-b857-3f43" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b30f-e33b-0460-172b" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c7f-0242-047e-7b28" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8c74-c3c0-c248-7b55" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries/>
@@ -1120,7 +1215,7 @@ on Discs of Tzeentch 	7
             <modifier type="set" field="hidden" value="true">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0d9e-f184-1f9a-4313" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c2d2-b07c-1313-8bc6" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
@@ -1152,15 +1247,44 @@ on Discs of Tzeentch 	7
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="d1f6-57f2-d719-f50d" name="Greatfray Artefacts" hidden="false" targetId="8d96-0812-67e1-5dd8" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="0046-09b0-8d66-d520" name="Spoils of the Brayherds" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d97c-4b56-c88f-a608" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d97c-4b56-c88f-a608" type="max"/>
       </constraints>
       <categoryLinks/>
       <selectionEntries>
@@ -1178,28 +1302,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1221,28 +1324,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1264,28 +1346,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1307,28 +1368,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1351,28 +1391,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1394,28 +1413,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1431,7 +1429,28 @@ on Discs of Tzeentch 	7
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="159a-3ba0-0c01-2873" type="notInstanceOf"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e4c-9aa5-0775-3145" type="max"/>
       </constraints>
@@ -1451,28 +1470,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="159a-3ba0-0c01-2873" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1494,28 +1492,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="159a-3ba0-0c01-2873" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1537,28 +1514,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="159a-3ba0-0c01-2873" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1580,28 +1536,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="159a-3ba0-0c01-2873" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1623,28 +1558,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="159a-3ba0-0c01-2873" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1666,28 +1580,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="159a-3ba0-0c01-2873" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1703,7 +1596,28 @@ on Discs of Tzeentch 	7
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a99-cd96-f096-4e26" type="max"/>
       </constraints>
@@ -1723,28 +1637,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1766,28 +1659,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1809,28 +1681,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1852,28 +1703,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1895,28 +1725,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1938,28 +1747,7 @@ on Discs of Tzeentch 	7
           </profiles>
           <rules/>
           <infoLinks/>
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <repeats/>
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="or">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                  </conditions>
-                  <conditionGroups>
-                    <conditionGroup type="and">
-                      <conditions>
-                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="317e-8812-7ee5-f594" type="equalTo"/>
-                        <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
-                      </conditions>
-                      <conditionGroups/>
-                    </conditionGroup>
-                  </conditionGroups>
-                </conditionGroup>
-              </conditionGroups>
-            </modifier>
-          </modifiers>
+          <modifiers/>
           <constraints/>
           <categoryLinks/>
           <selectionEntries/>
@@ -1968,6 +1756,496 @@ on Discs of Tzeentch 	7
           <costs/>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ce28-8c8f-76ee-0777" name="Spell Lores" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6926-923d-cb16-8336" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="4d01-6154-d592-5250" name="Lore of Dark Storms" hidden="false" targetId="1415-f163-738d-181c" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="1ae4-d89f-98f6-6ab7" name="Lore of the Twisted Wilds" hidden="false" targetId="5334-87d3-449d-3dcb" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5334-87d3-449d-3dcb" name="Lore of the Twisted Wilds" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="812f-790a-4f66-0476" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f53-8230-2f02-9639" type="notInstanceOf"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4c2-dd87-8bf7-e2cb" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="e9bc-2248-ec97-88f3" name="5. Wild Rampage" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="58c6-5b29-ea72-e463" name="Wild Rampage" book="Chaos Battletome: Beasts of Chaos" page="66" hidden="false" profileTypeId="2e81-5e22-c6e1-73cb" profileTypeName="Spell">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Casting Value" characteristicTypeId="2508-b604-1258-a920" value="6"/>
+                <characteristic name="Description" characteristicTypeId="76ff-781d-b8e6-5f27" value="If successfully cast, pick a friendly unit within 12&quot; of the caster that is visible to them. Until your next hero phase, you can re-roll failed wound rolls for attacks with melee weapons made by this unit. However, subtract 1 from save rolls for attacks that target this unit."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="9ef1-1487-d7da-343f" name="6. Titanic Fury" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c951-2321-583d-7707" name="Titanic Fury" book="Chaos Battletome: Beasts of Chaos" page="66" hidden="false" profileTypeId="2e81-5e22-c6e1-73cb" profileTypeName="Spell">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Casting Value" characteristicTypeId="2508-b604-1258-a920" value="7"/>
+                <characteristic name="Description" characteristicTypeId="76ff-781d-b8e6-5f27" value="Titanic Fury has a casting value of 7. If successfully cast, pick a friendly BEASTS OF CHAOS MONSTER within 12&quot; of the caster that is visible to them. Until your next hero phase, add 1 to the Attacks characteristic of that MONSTER’s melee weapons."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="fdc5-b365-b162-aec3" name="4. Tendrils of Atrophy" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9330-7d74-46a7-1015" name="Tendrils of Atrophy" book="Chaos Battletome: Beasts of Chaos" page="66" hidden="false" profileTypeId="2e81-5e22-c6e1-73cb" profileTypeName="Spell">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Casting Value" characteristicTypeId="2508-b604-1258-a920" value="6"/>
+                <characteristic name="Description" characteristicTypeId="76ff-781d-b8e6-5f27" value="If successfully cast, pick an enemy unit within 12&quot; of the caster that is visible to them. Until your next hero phase, subtract 1 from save rolls for attacks that target that unit."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="4839-fd3b-73fe-b6f7" name="1. Viletide" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="33f5-6b8c-87f0-2858" name="Viletide" book="Chaos Battletome: Beasts of Chaos" page="66" hidden="false" profileTypeId="2e81-5e22-c6e1-73cb" profileTypeName="Spell">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Casting Value" characteristicTypeId="2508-b604-1258-a920" value="6"/>
+                <characteristic name="Description" characteristicTypeId="76ff-781d-b8e6-5f27" value="If successfully cast, pick an enemy unit within 12&quot; of the caster that is visible to them. That unit suffers D3 mortal wounds. If the unit is within 6&quot; of the caster, it suffers D6 mortal wounds instead."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="b696-efbc-d85b-62c4" name="2. Vicious Stranglethorns" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="af03-6531-d3d6-5000" name="Vicious Stranglethorns" book="Chaos Battletome: Beasts of Chaos" page="66" hidden="false" profileTypeId="2e81-5e22-c6e1-73cb" profileTypeName="Spell">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Casting Value" characteristicTypeId="2508-b604-1258-a920" value="7"/>
+                <characteristic name="Description" characteristicTypeId="76ff-781d-b8e6-5f27" value="If successfully cast, pick a terrain feature wholly within 24&quot; of the caster that is visible to them. Each enemy unit within 3&quot; of that terrain feature suffers D3 mortal wounds."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="75da-ed95-ad1d-f88b" name="3. Savage Dominion" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d470-f3a0-6dee-3658" name="Savage Dominion" book="Chaos Battletome: Beasts of Chaos" page="66" hidden="false" profileTypeId="2e81-5e22-c6e1-73cb" profileTypeName="Spell">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Casting Value" characteristicTypeId="2508-b604-1258-a920" value="5"/>
+                <characteristic name="Description" characteristicTypeId="76ff-781d-b8e6-5f27" value="If successfully cast, pick an enemy MONSTER unit that is a single model within 18&quot; of the caster and visible to them, and roll 2D6. If the roll is equal to or greater than that model’s Bravery characteristic, it immediately moves 3&quot; towards the closest model. You can then pick a unit within 1&quot; of that MONSTER and roll a number of dice equal to the MONSTER’s Wounds characteristic. For each 4+, that unit suffers 1 mortal wound."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="1415-f163-738d-181c" name="Lore of Dark Storms" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4dde-360b-1117-632f" type="notInstanceOf"/>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4f53-8230-2f02-9639" type="notInstanceOf"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c126-9deb-39ec-af3d" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e242-fc85-6c38-2c86" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="3dd0-b467-1453-7c0d" name="1. Thunderwave" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9dc6-22c8-c71f-9457" name="Thunderwave" book="Chaos Battletome: Beasts of Chaos" page="67" hidden="false" profileTypeId="2e81-5e22-c6e1-73cb" profileTypeName="Spell">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Casting Value" characteristicTypeId="2508-b604-1258-a920" value="7"/>
+                <characteristic name="Description" characteristicTypeId="76ff-781d-b8e6-5f27" value="If successfully cast, each unit within 3&quot; of the caster suffers D3 mortal wounds. THUNDERSCORN units are not affected by this spell."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="3065-fb69-653d-e186" name="2. Hailstorm" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="a5c2-c394-2889-6e73" name="Hailstorm" book="Chaos Battletome: Beasts of Chaos" page="67" hidden="false" profileTypeId="2e81-5e22-c6e1-73cb" profileTypeName="Spell">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Casting Value" characteristicTypeId="2508-b604-1258-a920" value="6"/>
+                <characteristic name="Description" characteristicTypeId="76ff-781d-b8e6-5f27" value="If successfully cast, pick an enemy unit within 21&quot; of the caster that is visible to them. Until your next hero phase, halve the Move characteristic of, and run and charge rolls for, that unit."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="6224-e176-b8cb-1486" name="3. Sundering Blades" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ce49-99c0-6cb0-ac04" name="Sundering Blades" book="Chaos Battletome: Beasts of Chaos" page="67" hidden="false" profileTypeId="2e81-5e22-c6e1-73cb" profileTypeName="Spell">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Casting Value" characteristicTypeId="2508-b604-1258-a920" value="7"/>
+                <characteristic name="Description" characteristicTypeId="76ff-781d-b8e6-5f27" value="If successfully cast, pick a friendly unit wholly within 18&quot; of the caster that is visible to them. Until your next hero phase, improve the Rend characteristic of that unit’s melee weapons by 1."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8d96-0812-67e1-5dd8" name="Greatfray Artefacts" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <repeats/>
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="708b-753f-8b81-b468" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a99b-76e8-94e2-de1a" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae57-89c1-6297-2d68" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="663b-dfbf-6bff-cdff" name="0. Blade of the Desecrator" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="4261-7788-89d4-3c5e" name="Blade of the Desecrator" book="Chaos Battletome: Beasts of Chaos" page="68" hidden="false" profileTypeId="0ac4-aacb-2481-8e72" profileTypeName="Artefact">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Artefact Details" characteristicTypeId="0918-c47a-d84e-c0cf" value="Pick one of the bearer’s melee weapons. Improve the Rend characteristic of that weapon by 1 for attacks that target a unit of 10 or more models. Improve the Rend characteristic of that weapon by 2 instead for attacks that target a unit of 20 or more models. Attacks made by this weapon cannot have a Rend characteristic greater than -3."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="222c-2e67-8c77-2cfc" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="acc5-8316-32d5-df87" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="708b-753f-8b81-b468" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="222c-2e67-8c77-2cfc" type="max"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="acc5-8316-32d5-df87" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="6517-6b34-f0bb-8e51" name="0. Desolate Shard" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c875-43e7-0301-3429" name="Desolate Shard" book="Chaos Battletome: Beasts of Chaos" page="69" hidden="false" profileTypeId="0ac4-aacb-2481-8e72" profileTypeName="Artefact">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Artefact Details" characteristicTypeId="0918-c47a-d84e-c0cf" value="Once per battle, at the start of your hero phase, the bearer can use the Desolate Shard if they are within 3&quot; of a terrain feature. If they do so, roll a dice for each enemy unit within 1&quot; of that terrain feature. On a 4+ that enemy unit suffers D3 mortal wounds."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="008e-3c47-f281-af07" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="515f-d234-567c-c27a" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="515f-d234-567c-c27a" type="max"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="008e-3c47-f281-af07" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="6ca2-0d17-73a3-24ed" name="0. Mutating Gnarlblade" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c2f9-fd12-210d-35fd" name="Mutating Gnarlblade" book="Chaos Battletome: Beasts of Chaos" page="69" hidden="false" profileTypeId="0ac4-aacb-2481-8e72" profileTypeName="Artefact">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Artefact Details" characteristicTypeId="0918-c47a-d84e-c0cf" value="Pick one of the bearer’s melee weapons. Add 2 to the Damage characteristic of that weapon. However, each unmodified hit roll of 1 for attacks made with that weapon inflicts 1 mortal wound upon the bearer after all of the bearer’s attacks have been made."/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="d293-249d-8f22-5733" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="0378-b579-f1d5-91ff" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a99b-76e8-94e2-de1a" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ff3f-9e47-daac-acb3" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0378-b579-f1d5-91ff" type="max"/>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d293-249d-8f22-5733" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="30b7-03bf-1010-7c13" name="Greatfray Command Traits" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
